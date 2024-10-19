@@ -1,0 +1,189 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>10.0</LangVersion>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="FMOD\BankA.bank" />
+    <None Remove="FMOD\BankA.strings.bank" />
+    <None Remove="Resources\BluePurpleAliveOverWorld.png" />
+    <None Remove="Resources\BluePurpleCrayolaIcon.png" />
+    <None Remove="Resources\BluePurpleTwoFace.png" />
+    <None Remove="Resources\BlueYellowAliveOverWorld.png" />
+    <None Remove="Resources\BlueYellowCrayolaIcon.png" />
+    <None Remove="Resources\BoneBirdIcon.png" />
+    <None Remove="Resources\BoneBirdIconDead.png" />
+    <None Remove="Resources\BrokenMusicManIcon.png" />
+    <None Remove="Resources\BugIcon.png" />
+    <None Remove="Resources\BugIconDead.png" />
+    <None Remove="Resources\BugPassive.png" />
+    <None Remove="Resources\Compression.png" />
+    <None Remove="Resources\ConductorDeadIcon.png" />
+    <None Remove="Resources\ConvictIcon.png" />
+    <None Remove="Resources\Decay.png" />
+    <None Remove="Resources\Decompression.png" />
+    <None Remove="Resources\Festering.png" />
+    <None Remove="Resources\FollowerPassive.png" />
+    <None Remove="Resources\FumesIcon.png" />
+    <None Remove="Resources\GrowthSilly.png" />
+    <None Remove="Resources\HazardIcon.png" />
+    <None Remove="Resources\HivemindIcon.png" />
+    <None Remove="Resources\Impoverishment.png" />
+    <None Remove="Resources\InfectedSmokeStacksIcon.png" />
+    <None Remove="Resources\InfectedSmokeStacksIconDead.png" />
+    <None Remove="Resources\IronQuillIcon.png" />
+    <None Remove="Resources\katiyaBack.png" />
+    <None Remove="Resources\katiyaFront.png" />
+    <None Remove="Resources\KatiyaMenu.png" />
+    <None Remove="Resources\KatiyaWorld.png" />
+    <None Remove="Resources\LeaderPassive.png" />
+    <None Remove="Resources\meonmungday" />
+    <None Remove="Resources\MissionaryDeadIcon.png" />
+    <None Remove="Resources\MissionaryIcon.png" />
+    <None Remove="Resources\OverHealIcon.png" />
+    <None Remove="Resources\PiercedIcon.png" />
+    <None Remove="Resources\PurpleRedAliveOverWorld.png" />
+    <None Remove="Resources\PurpleRedTwoFace.png" />
+    <None Remove="Resources\REALLIFEYIIK.png" />
+    <None Remove="Resources\RedBlueCrayolaIcon.png" />
+    <None Remove="Resources\RedBlueTwoFace.png" />
+    <None Remove="Resources\RedPurpleCrayolaIcon.png" />
+    <None Remove="Resources\RedYellowAliveOverWorld.png" />
+    <None Remove="Resources\RedYellowCrayolaIcon.png" />
+    <None Remove="Resources\RedYellowTwoFace.png" />
+    <None Remove="Resources\Roots.png" />
+    <None Remove="Resources\Scavanger.png" />
+    <None Remove="Resources\SpikeGuyIcon.png" />
+    <None Remove="Resources\SpikeGuyIconDead.png" />
+    <None Remove="Resources\SpligisPortal.png" />
+    <None Remove="Resources\SpluglingDeathOverWorld.png" />
+    <None Remove="Resources\Spores.png" />
+    <None Remove="Resources\StoneIcon.png" />
+    <None Remove="Resources\wowzers" />
+    <None Remove="Resources\YellowBlueTwoFace.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="FMOD\BankA.bank" />
+    <EmbeddedResource Include="FMOD\BankA.strings.bank" />
+    <EmbeddedResource Include="Resources\BluePurpleCrayolaIcon.png" />
+    <EmbeddedResource Include="Resources\BluePurpleAliveOverWorld.png" />
+    <EmbeddedResource Include="Resources\BluePurpleTwoFace.png" />
+    <EmbeddedResource Include="Resources\BlueYellowAliveOverWorld.png" />
+    <EmbeddedResource Include="Resources\BlueYellowCrayolaIcon.png" />
+    <EmbeddedResource Include="Resources\BoneBirdIcon.png" />
+    <EmbeddedResource Include="Resources\BoneBirdIconDead.png" />
+    <EmbeddedResource Include="Resources\BrokenMusicManIcon.png" />
+    <EmbeddedResource Include="Resources\BugIcon.png" />
+    <EmbeddedResource Include="Resources\BugIconDead.png" />
+    <EmbeddedResource Include="Resources\BugPassive.png" />
+    <EmbeddedResource Include="Resources\Compression.png" />
+    <EmbeddedResource Include="Resources\ConductorDeadIcon.png" />
+    <EmbeddedResource Include="Resources\ConvictIcon.png" />
+    <EmbeddedResource Include="Resources\Decay.png" />
+    <EmbeddedResource Include="Resources\Decompression.png" />
+    <EmbeddedResource Include="Resources\Festering.png" />
+    <EmbeddedResource Include="Resources\FollowerPassive.png" />
+    <EmbeddedResource Include="Resources\FumesIcon.png" />
+    <EmbeddedResource Include="Resources\GrowthSilly.png" />
+    <EmbeddedResource Include="Resources\HazardIcon.png" />
+    <EmbeddedResource Include="Resources\HivemindIcon.png" />
+    <EmbeddedResource Include="Resources\Impoverishment.png" />
+    <EmbeddedResource Include="Resources\InfectedSmokeStacksIcon.png" />
+    <EmbeddedResource Include="Resources\InfectedSmokeStacksIconDead.png" />
+    <EmbeddedResource Include="Resources\IronQuillIcon.png" />
+    <EmbeddedResource Include="Resources\katiyaBack.png" />
+    <EmbeddedResource Include="Resources\katiyaFront.png" />
+    <EmbeddedResource Include="Resources\KatiyaMenu.png" />
+    <EmbeddedResource Include="Resources\KatiyaWorld.png" />
+    <EmbeddedResource Include="Resources\LeaderPassive.png" />
+    <EmbeddedResource Include="Resources\meonmungday" />
+    <EmbeddedResource Include="Resources\MissionaryDeadIcon.png" />
+    <EmbeddedResource Include="Resources\MissionaryIcon.png" />
+    <EmbeddedResource Include="Resources\OverHealIcon.png" />
+    <EmbeddedResource Include="Resources\PiercedIcon.png" />
+    <EmbeddedResource Include="Resources\PurpleRedAliveOverWorld.png" />
+    <EmbeddedResource Include="Resources\PurpleRedTwoFace.png" />
+    <EmbeddedResource Include="Resources\REALLIFEYIIK.png" />
+    <EmbeddedResource Include="Resources\RedBlueCrayolaIcon.png" />
+    <EmbeddedResource Include="Resources\RedBlueTwoFace.png" />
+    <EmbeddedResource Include="Resources\RedPurpleCrayolaIcon.png" />
+    <EmbeddedResource Include="Resources\RedYellowAliveOverWorld.png" />
+    <EmbeddedResource Include="Resources\RedYellowCrayolaIcon.png" />
+    <EmbeddedResource Include="Resources\RedYellowTwoFace.png" />
+    <EmbeddedResource Include="Resources\Roots.png" />
+    <EmbeddedResource Include="Resources\Scavanger.png" />
+    <EmbeddedResource Include="Resources\SpikeGuyIcon.png" />
+    <EmbeddedResource Include="Resources\SpikeGuyIconDead.png" />
+    <EmbeddedResource Include="Resources\SpligisPortal.png" />
+    <EmbeddedResource Include="Resources\SpluglingDeathOverWorld.png" />
+    <EmbeddedResource Include="Resources\Spores.png" />
+    <EmbeddedResource Include="Resources\StoneIcon.png" />
+    <EmbeddedResource Include="Resources\wowzers" />
+    <EmbeddedResource Include="Resources\YellowBlueTwoFace.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\Steam\steamapps\common\Brutal Orchestra\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>..\..\Steam\steamapps\common\Brutal Orchestra\BepInEx\core\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="BrutalAPI">
+      <HintPath>..\..\Steam\steamapps\common\Brutal Orchestra\BrutalOrchestra_Data\StreamingAssets\mods\BrutalAPI\plugins\BrutalAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>..\..\Steam\steamapps\common\Brutal Orchestra\BrutalOrchestra_Data\Managed\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="FMODUnity">
+      <HintPath>..\..\Steam\steamapps\common\Brutal Orchestra\BrutalOrchestra_Data\Managed\FMODUnity.dll</HintPath>
+    </Reference>
+    <Reference Include="Marosi.SerializableCollections">
+      <HintPath>..\..\Steam\steamapps\common\Brutal Orchestra\BrutalOrchestra_Data\Managed\Marosi.SerializableCollections.dll</HintPath>
+    </Reference>
+    <Reference Include="Marosi.Utility">
+      <HintPath>..\..\Steam\steamapps\common\Brutal Orchestra\BrutalOrchestra_Data\Managed\Marosi.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>..\..\Brutal orchestra modding stuff\Visual studio code refrence\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>..\..\Brutal orchestra modding stuff\Visual studio code refrence\MonoMod.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>..\..\Brutal orchestra modding stuff\Visual studio code refrence\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\Steam\steamapps\common\Brutal Orchestra\BrutalOrchestra_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\Steam\steamapps\common\Brutal Orchestra\BrutalOrchestra_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
